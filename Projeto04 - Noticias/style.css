@@ -131,7 +131,40 @@ h2{
     background: #f9f9f9 url(./img/marcador.png) no-repeat left center;
     padding-left: 20px;
 }
-
+label{
+    display: block;
+    cursor: pointer;
+}
+input{
+    padding: 5px;
+    width: 145px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+.submit input{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-left: 40px;
+}
+img{
+    border: 2px solid #dfdfdf;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+.entrevista h3{
+    background: #b10333;
+    color: #fff;
+}
 
 /*Rodape*/
 #container-rodape{
